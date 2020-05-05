@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="question-answer" />
+        <module name="question-error" />
+        <module name="question-interview" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="question-answer" target="1.5" />
+      <module name="question-error" target="1.8" />
+      <module name="question-interview" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
